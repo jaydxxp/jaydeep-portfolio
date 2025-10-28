@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Jaydeep",
   initials: "JW",
-  url: "https://dhillio.io",
+  url: "https://jaydeep-portfolio-kappa.vercel.app/",
   location: "Maharashtra,India",
   locationLink: "https://www.google.com/maps/place/nashik",
   description:
