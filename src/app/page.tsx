@@ -29,6 +29,16 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+             <BlurFade delay={BLUR_FADE_DELAY * 2}>
+  <a
+    href="https://drive.google.com/file/d/1xoaM31QpgSOhAdlFzUfSCZ8Ek1sBMF4-/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center rounded-md bg-black dark:bg-white text-white dark:text-black px-4 py-2 text-sm font-medium hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors"
+  >
+    View Resume
+  </a>
+</BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
