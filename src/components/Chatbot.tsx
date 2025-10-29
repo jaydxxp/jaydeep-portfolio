@@ -158,9 +158,9 @@ export default function PortfolioAssistant() {
   return (
     <>
 
-      <button
+       <button
         onClick={handleButtonClick}
-        className={`fixed bottom-6 right-6 md:bottom-8 md:right-8 ${
+        className={`fixed bottom-20 right-6 md:bottom-8 md:right-8 ${
           isDark ? 'bg-white' : 'bg-black'
         } w-12 h-12 md:w-14 md:h-14 rounded-full shadow-lg hover:scale-110 transition-transform flex items-center justify-center z-50`}
       >
